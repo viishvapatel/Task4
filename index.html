@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>G3 Task List</title>
+    <script defer src="assets/js/taskManager.js"></script>
+    <script defer src="assets/js/index.js"></script>
+</head>
+
+<body>
+    <h1 class="header">Task List</h1>
+    <form>
+        <div class="form-group">
+            <label for="newTaskNameInput">Task Name</label>
+            <input type="task" class="form-control" id="newTaskNameInput" name="Task Name" required>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="newTaskDescriptionInput">Task Description</label>
+            <textarea class="form-control" id="newTaskDescriptionInput" rows="3" required></textarea>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="newTaskAssignedToInput">Task Assigned to</label>
+            <input type="task" class="form-control" id="newTaskAssignedToInput" name="Task Assigned" required>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="form-group">
+            <label for="newTaskDueDateInput">Due date</label>
+            <input type="date" class="form-control" id="newTaskDueDateInput" name="Due date" required>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button onclick="validFormFieldInput()" type="button">Submit</button>
+        <button type="button" class="btn btn-info">Mark as done</button>
+        <div id="myDIV">
+            
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="card" style="width: 18rem">
+            <div class="custom-checkbox custom-control"><input class="custom-control-input" id="exampleCustomCheckbox10"
+                    type="checkbox">
+                <label class="custom-control-label" for="exampleCustomCheckbox10">&nbsp;</label></div>
+            <h5 class="card-header">Task</h5>
+            <h5 class="card-header">Task Description</h5>
+            <h5 class="card-header">Assigned to</h5>
+            <h5 class="card-header">Due date</h5>
+            <div class="card-body">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </form>
+</body>
+
+</html>
