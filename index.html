@@ -23,7 +23,7 @@
         <br>
 
         <div class="form-group">
-            <label for="newTaskDescriptionInput">Task Description</label>
+            <label for="newTaskDescriptionInput">Description</label>
             <textarea class="form-control" id="newTaskDescriptionInput" rows="3" required></textarea>
         </div>
         <br>
@@ -31,7 +31,7 @@
         <br>
 
         <div class="form-group">
-            <label for="newTaskAssignedToInput">Task Assigned to</label>
+            <label for="newTaskAssignedToInput"> Assigned to</label>
             <input type="task" class="form-control" id="newTaskAssignedToInput" name="Task Assigned" required>
         </div>
         <br>
@@ -46,25 +46,26 @@
         <br>
         <br>
         <button onclick="validFormFieldInput()" type="button">Submit</button>
-        <button type="button" class="btn btn-info">Mark as done</button>
+        <button type="button" class="btn btn-info">Delete</button>
         <div id="myDIV">
             
         </div>
         <br>
         <br>
         <br>
-
-        <div class="card" style="width: 18rem">
+        <ul id="tasksList">
+        <!-- <div class="card" style="width: 18rem">
             <div class="custom-checkbox custom-control"><input class="custom-control-input" id="exampleCustomCheckbox10"
                     type="checkbox">
                 <label class="custom-control-label" for="exampleCustomCheckbox10">&nbsp;</label></div>
             <h5 class="card-header">Task</h5>
-            <h5 class="card-header">Task Description</h5>
+            <h5 class="card-header"> Description</h5>
             <h5 class="card-header">Assigned to</h5>
             <h5 class="card-header">Due date</h5>
             <div class="card-body">
             </div>
-        </div>
+        </div> -->
+        </ul>
         <br>
         <br>
         <br>
