@@ -8,14 +8,15 @@ let createTaskHtml = (id, name, description, assignedTo, dueDate, status) => {
         return `
     <li class="list-group-item" data-task-id="${id}">
         <div class="d-flex w-100 mt-2 justify-content-between align-items-center">
-            <h5>Take out ${description}</h5>
-            <span class="badge badge-danger">TODO</span>
+            <h5>Task: ${description}</h5>
+            <span class="badge badge-danger">ToDo</span>
         </div>
         <div class="d-flex w-100 mb-3 justify-content-between">
             <small>AssignedTo: ${assignedTo}</small>
-            <small>Due: ${dueDate}</small>
+            <br>
+            <small>Due date: ${dueDate}</small>
         </div>
-        <p>Take out the trash to the front of the house</p>
+        <p></p>
         <button type="button" class="btn    
         done-button
         btn-dark ${doneButtonVisibility}">Mark as Done</button>

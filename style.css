@@ -1,0 +1,33 @@
+:root {
+     --primary: rgba(89, 216, 255, 0.6);
+    --light: e8edf1;
+    --greyish: rgb(116 121 129 / 80%); 
+}
+
+.header {
+    font-family : monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+body{
+    background-color: e8edf1;
+}
+h1{
+  color: black;
+  margin-left: 20px;
+}
+ul{
+    padding: 0;
+    text-align: left;
+    list-style: none
+}
+
+.card {
+  background-color: rgb(174, 204, 209);
+
+}
+
+.text{
+  color: violet;
+}
